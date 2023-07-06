@@ -1,0 +1,61 @@
+body {
+    background:linear-gradient( 180deg,#6B5B95 ,#34568B);
+}
+.main{
+    background:linear-gradient( 180deg,#6B5B95 ,#34f5ff);
+    height:500px;
+    display:grid;
+    place-items:center ;
+    grid-template-rows:10% 10% 20% 10% 10% ;
+}
+.textBox{
+margin-top:15px;
+    text-align:center ;
+    
+}
+p{
+    
+}
+p,h2{
+    text-align:center ;
+}
+input{
+    height:25px;
+    text-align:center ;
+    border:3px solid grey;
+    border-radius:5px;
+}
+input:focus{
+    background-color:#e2d200;
+    
+}
+.btn{
+padding:15px;
+
+background-color:coral;
+color:white;
+border-radius:10px;
+
+    margin-left:0.5rem;
+}
+.notification{
+    display:none;
+    font-size:20px;
+}
+ul li{
+    list-style-type:none;
+}
+
+.scoreDiv{
+padding:10px;
+color:white;
+border-radius:10px;
+
+    background:linear-gradient( 180deg,#6B5B95 ,#34568B);
+}
+samp{
+    font-weight:700;
+}
+
+
+
