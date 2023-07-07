@@ -60,4 +60,4 @@ trails.innerHTML = `${guessCount}`
         
     })
     
-                            
+}             
