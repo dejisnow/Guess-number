@@ -59,5 +59,5 @@ trails.innerHTML = `${guessCount}`
         input.value = ""
         
     })
-    
+            }
                             
