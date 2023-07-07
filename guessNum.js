@@ -8,7 +8,7 @@ let display= document.querySelector(".display")
     let trails = document.querySelector(".trials")
     
     let score = document.querySelector(".score")
-    let highestScore = document.querySelector(".highestScore")
+   
     
     
 let guessCount = 3;
@@ -21,7 +21,7 @@ trails.innerHTML = `${guessCount}`
   display.innerHTML =`<h2> Guess a number <= ${num + randomNum } </h2>`
     
     btn.addEventListener("click",function btnEvent(){
-         trails.innerHTML = `${guessCount}`
+         trails.innerHTML = `${guessCount-1}`
           
         var value = parseInt(input.value)
         console.log(num)
