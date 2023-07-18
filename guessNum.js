@@ -8,8 +8,6 @@ let display= document.querySelector(".display");
     let trails = document.querySelector(".trials");
     
     let score = document.querySelector(".score");
-   
-    
     
 let guessCount = 3;
 let scores = 0;
@@ -31,7 +29,7 @@ trails.innerHTML = `${guessCount}`
         notification.style.display = "block";
         notification.style.color = "green";
        
-        notification.innerHTML = "You guessed it 👏🎉🎉!!";
+        notification.innerHTML = "Congratulations, you guessed it 👏🎉🎉!!";
        input.disabled = true;
             trails.innerHTML = "0";
             btn.removeEventListener("click",btnEvent);
