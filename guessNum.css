@@ -1,15 +1,15 @@
 body {
-    background:linear-gradient( 180deg,#6B5B95 ,#34568B);
+    background:linear-gradient( 180deg,#faf0e6 ,#fb8b24);
 }
 .main{
-    background:linear-gradient( 180deg,#6B5B95 ,#34f5ff);
+    background:linear-gradient( 180deg,#faf0e6 ,#fb8b24);
     height:500px;
     display:grid;
     place-items:center ;
     grid-template-rows:10% 10% 20% 10% 10% ;
 }
 .textBox{
-margin-top:15px;
+margin:25px 0;
     text-align:center ;
     
 }
@@ -24,6 +24,7 @@ input{
     text-align:center ;
     border:3px solid grey;
     border-radius:5px;
+    padding:5px;
 }
 input:focus{
     background-color:#e2d200;
@@ -35,8 +36,10 @@ padding:15px;
 background-color:coral;
 color:white;
 border-radius:10px;
-
+box-shadow:2px 3px 2px grey;
     margin-left:0.5rem;
+    border:0;
+    
 }
 .notification{
     display:none;
@@ -51,11 +54,12 @@ padding:10px;
 color:white;
 border-radius:10px;
 
-    background:linear-gradient( 180deg,#6B5B95 ,#34568B);
+    background:linear-gradient( 180deg,#6B5B95 ,#fb8b24);
 }
 samp{
     font-weight:700;
 }
+
 
 
 
